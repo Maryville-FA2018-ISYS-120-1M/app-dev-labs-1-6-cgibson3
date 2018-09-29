@@ -1,16 +1,16 @@
-olcvxvimport UIKit
+olcvxvimport UIKit //should be import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad( {
+    override func viewDidLoad(//should be () {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var sample = "sample"
+        var sample = "sample" // should be let sample
         print(sample)
         
         if false {
             print("Will this line of code ever be reached?")
-            someMetho()
+            someMetho() //should be someMethod()
         }
         
         
